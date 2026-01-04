@@ -54,6 +54,7 @@ bash GACS-Jammy.sh
 ## Install Parameter
 ```bash
 # 1) Masuk ke folder parameter di repo
+```bash
 cd parameter
 ```
 ```
