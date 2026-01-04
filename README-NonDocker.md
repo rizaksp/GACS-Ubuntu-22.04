@@ -116,6 +116,5 @@ zerotier-cli join [Network id]
 
 ---
 
-## Video Panduan
-- **Non‑Docker** https://youtu.be/p_UNuq0rfg0
+
 
