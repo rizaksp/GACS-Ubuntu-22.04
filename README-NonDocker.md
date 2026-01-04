@@ -23,28 +23,24 @@ Panduan ini menginstal **GenieACS** langsung di host beserta virtual parameter d
 sudo su
 ```
 ```bash
-git clone https://github.com/safrinnetwork/GACS-Ubuntu-22.04
 git clone https://github.com/rizaksp/GACS-Ubuntu-22.04
 ```
 ```bash
-# 3) Masuk ke folder GACS
 cd GACS-Ubuntu-22.04
 ```
 ```bash
-# 4) Install dos2unix
-apt-get update -y && apt-get install -y dos2unix
+apt-get install -y dos2unix
 ```
 ```bash
-# 5) Convert format script GACS
+
 dos2unix GACS-Jammy.sh
 ```
 ```bash
-# 6) Beri izin script GACS
 chmod +x GACS-Jammy.sh
 ```
 ```bash
-# 7) Instal GACS
-./GACS-Jammy.sh
+
+bash GACS-Jammy.sh
 ```
 
 ---
