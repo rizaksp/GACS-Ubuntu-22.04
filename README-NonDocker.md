@@ -25,7 +25,9 @@ sudo su
 ```bash
 apt-get update -y
 ```
+```bash
 apt-get upgrade -y
+```
 ```bash
 git clone https://github.com/rizaksp/GACS-Ubuntu-22.04
 ```
