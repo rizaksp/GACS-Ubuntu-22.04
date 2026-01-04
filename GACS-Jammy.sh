@@ -50,8 +50,8 @@ print_banner() {
 	echo "  \____/_/   \_\____|____/   |____/ \___|_|  |_| .__/ \__|"
 	echo "                                               |_|        "
 	echo ""
-	echo "                  --- Geniacs Parameter ---"
-	echo "                  --- By Riza Akatech ---"
+	echo "                  ---Full Parameter ---"
+	echo "                  --- Riza Akatech ---"
 	echo -e "${NC}"
 }
 
@@ -63,8 +63,8 @@ fi
 
 # Check Ubuntu version
 # if [ "$(lsb_release -cs)" != "jammy" ]; then
-  #   echo -e "${RED}This script only supports Ubuntu 22.04 (Jammy)${NC}"
- #   exit 1
+#    echo -e "${RED}This script only supports Ubuntu 22.04 (Jammy)${NC}"
+#   exit 1
 # fi
 
 # Print banner
@@ -84,15 +84,15 @@ run_command "apt install -y nodejs" "Installing NodeJS ($(( ++current_step ))/$t
 
 run_command "apt install -y npm" "Installing NPM ($(( ++current_step ))/$total_steps)"
 
-# run_command "wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb && dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb" "Installing libssl ($(( ++current_step ))/$total_steps)"
+run_command "wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb && dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb" "Installing libssl ($(( ++current_step ))/$total_steps)"
 
-# run_command "curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -" "Adding MongoDB key ($(( ++current_step ))/$total_steps)"
+run_command "curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -" "Adding MongoDB key ($(( ++current_step ))/$total_steps)"
 
-# run_command "echo 'deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse' | tee /etc/apt/sources.list.d/mongodb-org-4.4.list" "Adding MongoDB repository ($(( ++current_step ))/$total_steps)"
+run_command "echo 'deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse' | tee /etc/apt/sources.list.d/mongodb-org-4.4.list" "Adding MongoDB repository ($(( ++current_step ))/$total_steps)"
 
 run_command "apt-get update -y" "Updating package list ($(( ++current_step ))/$total_steps)"
 
-# run_command "apt-get install mongodb-org -y" "Installing MongoDB ($(( ++current_step ))/$total_steps)"
+run_command "apt-get install mongodb-org -y" "Installing MongoDB ($(( ++current_step ))/$total_steps)"
 
 run_command "apt-get upgrade -y" "Upgrading system ($(( ++current_step ))/$total_steps)"
 
@@ -171,5 +171,3 @@ for service in mongod genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui; do
 done
 
 echo -e "\n${GREEN}${BOLD}Script execution completed successfully!${NC}"
-
-
