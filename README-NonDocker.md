@@ -38,14 +38,12 @@ cd GACS-Ubuntu-22.04
 apt-get install -y dos2unix
 ```
 ```bash
-
 dos2unix GACS-Jammy.sh
 ```
 ```bash
 chmod +x GACS-Jammy.sh
 ```
 ```bash
-
 bash GACS-Jammy.sh
 ```
 
