@@ -19,12 +19,10 @@ Panduan ini menginstal **GenieACS** langsung di host beserta virtual parameter d
 
 ## Instalasi
 
-# 1) Masuk sebagai root
 ```bash
 sudo su
 ```
 ```bash
-# 2) Download Script GACS
 git clone https://github.com/safrinnetwork/GACS-Ubuntu-22.04
 git clone https://github.com/rizaksp/GACS-Ubuntu-22.04
 ```
