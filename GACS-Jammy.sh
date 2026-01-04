@@ -50,7 +50,7 @@ print_banner() {
 	echo "  \____/_/   \_\____|____/   |____/ \___|_|  |_| .__/ \__|"
 	echo "                                               |_|        "
 	echo ""
-	echo "                  --- Ubuntu 22.04 ---"
+	echo "                  --- Geniacs Parameter ---"
 	echo "                  --- By Riza Akatech ---"
 	echo -e "${NC}"
 }
@@ -62,10 +62,10 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Check Ubuntu version
-if [ "$(lsb_release -cs)" != "jammy" ]; then
-    echo -e "${RED}This script only supports Ubuntu 22.04 (Jammy)${NC}"
-    exit 1
-fi
+# if [ "$(lsb_release -cs)" != "jammy" ]; then
+  #   echo -e "${RED}This script only supports Ubuntu 22.04 (Jammy)${NC}"
+ #   exit 1
+# fi
 
 # Print banner
 print_banner
@@ -171,4 +171,5 @@ for service in mongod genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui; do
 done
 
 echo -e "\n${GREEN}${BOLD}Script execution completed successfully!${NC}"
+
 
