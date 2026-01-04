@@ -57,11 +57,10 @@ bash GACS-Jammy.sh
 cd parameter
 ```
 
-# 2) Install parameter
+```bash
 mongorestore --db genieacs --drop .
 ```
-```
-# 3) Restart service GenieACS
+```bash
 systemctl restart genieacs-{cwmp,ui,nbi}
 ```
 > Jika dump Anda berada di lokasi lain, sesuaikan path pada langkah nomor (2).
