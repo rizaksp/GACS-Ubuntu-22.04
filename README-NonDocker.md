@@ -2,7 +2,7 @@
 
 ![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04%20Jammy-E95420?logo=ubuntu&logoColor=white)
 
-> **Hanya Untuk** VPS **baru/fresh** dengan OS **Ubuntu 22.04 (Jammy)**.
+> **BISA untuk selain **Ubuntu 22.04 (Jammy)**.
 
 ---
 
