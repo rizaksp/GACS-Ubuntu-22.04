@@ -18,9 +18,8 @@ Panduan ini menginstal **GenieACS** langsung di host beserta virtual parameter d
 ---
 
 ## Instalasi
-```bash
+
 # 1) Masuk sebagai root
-```
 ```bash
 sudo su
 ```
