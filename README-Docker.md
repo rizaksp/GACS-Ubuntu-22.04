@@ -28,11 +28,11 @@ apt update -y && apt upgrade -y && apt autoremove -y
 ```
 Pasang Docker + Compose (script otomatis)
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/safrinnetwork/Auto-Install-Docker/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/rizaksp/Auto-Install-Docker/main/install.sh)
 ```
 Download Script GACS
 ```bash
-git clone https://github.com/safrinnetwork/GACS-Ubuntu-22.04
+git clone https://github.com/rizaksp/GACS-Ubuntu-22.04
 ```
 Masuk ke folder GACS
 ```bash
@@ -56,7 +56,7 @@ apt update -y && apt upgrade -y && apt autoremove -y
 ```
 Pasang Docker + Compose (script otomatis)
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/safrinnetwork/Auto-Install-Docker/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/rizaksp/Auto-Install-Docker/main/install.sh)
 ```
 Download Script GACS
 ```bash
