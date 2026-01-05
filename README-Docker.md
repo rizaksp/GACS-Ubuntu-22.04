@@ -19,6 +19,7 @@ Panduan ini menginstal **GenieACS** menggunakan Docker/Compose beserta virtual p
 
 ## Instalasi GenieACS Docker + Zerotier ( VPS )
 # 1) Masuk sebagai root
+dwdw
 ```bash
 sudo su
 ```
