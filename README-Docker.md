@@ -22,8 +22,9 @@ Panduan ini menginstal **GenieACS** menggunakan Docker/Compose beserta virtual p
 ```bash
 sudo su
 ```
-```bash
 # 2) Update singkat
+```bash
+
 apt update -y && apt upgrade -y && apt autoremove -y
 ```
 ```bash
