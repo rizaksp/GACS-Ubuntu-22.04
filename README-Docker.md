@@ -18,37 +18,34 @@ Panduan ini menginstal **GenieACS** menggunakan Docker/Compose beserta virtual p
 ---
 
 ## Instalasi GenieACS Docker + Zerotier ( VPS )
-# 1) Masuk sebagai root
-dwdw
+Masuk sebagai root
 ```bash
 sudo su
 ```
-# 2) Update singkat
+Update singkat
 ```bash
-
 apt update -y && apt upgrade -y && apt autoremove -y
 ```
+Pasang Docker + Compose (script otomatis)
 ```bash
-# 3) Pasang Docker + Compose (script otomatis)
 bash <(curl -s https://raw.githubusercontent.com/safrinnetwork/Auto-Install-Docker/main/install.sh)
 ```
+Download Script GACS
 ```bash
-# 4) Download Script GACS
 git clone https://github.com/safrinnetwork/GACS-Ubuntu-22.04
 ```
+Masuk ke folder GACS
 ```bash
-# 5) Masuk ke folder GACS
 cd GACS-Ubuntu-22.04
 ```
-```bash
 # 6) Jalankan installer Docker
+```bash
 chmod +x install-genieacs-docker.sh
 ./install-genieacs-docker.sh
 ```
-
 ---
 
-## Instalasi GenieACS Docker ( Mini PC )
+Instalasi GenieACS Docker ( Mini PC )
 ```bash
 # 1) Masuk sebagai root
 sudo su
