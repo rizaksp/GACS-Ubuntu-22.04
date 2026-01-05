@@ -46,32 +46,31 @@ chmod +x install-genieacs-docker.sh
 ---
 
 Instalasi GenieACS Docker ( Mini PC )
+Masuk sebagai root
 ```bash
-# 1) Masuk sebagai root
 sudo su
 ```
+Update singkat
 ```bash
-# 2) Update singkat
 apt update -y && apt upgrade -y && apt autoremove -y
 ```
+Pasang Docker + Compose (script otomatis)
 ```bash
-# 3) Pasang Docker + Compose (script otomatis)
 bash <(curl -s https://raw.githubusercontent.com/safrinnetwork/Auto-Install-Docker/main/install.sh)
 ```
+Download Script GACS
 ```bash
-# 4) Download Script GACS
 git clone https://github.com/safrinnetwork/GACS-Ubuntu-22.04
 ```
+Masuk ke folder GACS
 ```bash
-# 5) Masuk ke folder GACS
 cd GACS-Ubuntu-22.04
 ```
+Jalankan installer Docker
 ```bash
-# 6) Jalankan installer Docker
 chmod +x docker-non-zerotier.sh
 ./docker-non-zerotier.sh
 ```
-
 ---
 
 ## Install Virtual Parameter (Docker)
